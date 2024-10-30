@@ -39,10 +39,10 @@ class GMEEK():
     def __init__(self,options):
         self.options=options
         
-        self.root_dir='Gmeek/docs/'
-        self.static_dir='Gmeek/static/'
-        self.post_folder='Gmeek/post/'
-        self.backup_dir='Gmeek/backup/'
+        self.root_dir='docs/'
+        self.static_dir='static/'
+        self.post_folder='post/'
+        self.backup_dir='backup/'
         self.post_dir=self.root_dir+self.post_folder
 
         user = Github(self.options.github_token)
